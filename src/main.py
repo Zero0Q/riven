@@ -14,7 +14,7 @@ from scalar_fastapi import get_scalar_api_reference
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
 
-from program import Program
+from program.program import Program
 from program.settings.models import get_version
 from program.utils.cli import handle_args
 from routers import app_router
